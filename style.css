@@ -1,0 +1,147 @@
+body, ul, p, li{
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    font-size: 15px;
+    background: none;
+    display: flex;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+
+}
+
+header{
+    
+    background-image: linear-gradient(to bottom, red, black);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+.container{
+    padding: 0px;
+    margin: 0 auto;
+
+}
+.top{
+    background-color: azure;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.menu{
+    display: flex;
+}
+.menu li a{
+    margin-left: 10px;
+    display: block;
+    padding: 10px;
+    background: rgb(173, 172, 172);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(22, 19, 19);
+}
+.menu li a:active{
+    box-shadow: 0 0 0 0 rgb(71, 52, 43), inset 2px 2px 2px #930;
+    transform: translate(3px 3px);
+}
+.flex{
+    display: flex;
+    padding: 20px;
+    background: rgb(109, 66, 66);
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(22, 19, 19);
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+}
+.flex li a{
+    color: white;
+    font-size: 18px;
+    display: block;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgb(22, 19, 19);
+    background: rgb(31, 29, 29);
+    padding: 10px;
+
+
+
+
+
+}
+.list{
+text-align: center;
+font-size: 17px;
+
+}
+.main.card section.card .icons{
+    width: 50px;
+    height: 50px;
+text-align: center;}
+
+main.card{
+    display: block;
+}
+h3{
+    text-align: center;
+    background-image: linear-gradient(to bottom, red, black);
+    color: azure;
+    padding: 10px;
+    margin: 10px;
+}
+
+main.card section.card img{
+    width: 100%;
+    
+}
+.icons{
+text-align: center;
+}
+.margin{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin:40px;
+    text-align: justify;
+}
+.but{
+    border: none;
+     padding: 3px 3px 3px 3px;
+     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: rgb(173, 143, 143);
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 3px 3px rgb(22, 19, 19);
+    transform: translate(3px 3px);
+
+}
+
+    p{
+        margin: 30px;
+        font-size: 15px;
+        list-style: 3px;
+}
+.fla{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    margin: 0 auto;
+    color: #930;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+
